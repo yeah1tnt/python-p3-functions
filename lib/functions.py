@@ -15,5 +15,7 @@ def add(num1, num2):
 def halve(number):
     if(type(number) == float):
         return float(number) / 2
+    if(type(number) == int):
+        return int(number) / 2
     else:
         return None
