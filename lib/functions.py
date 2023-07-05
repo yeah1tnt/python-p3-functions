@@ -13,7 +13,7 @@ def add(num1, num2):
     return num1 + num2
 
 def halve(number):
-    if(type(number) == int):
+    if(type(number) == float):
         return float(number) / 2
     else:
         return None
